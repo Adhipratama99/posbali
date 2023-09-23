@@ -1,0 +1,47 @@
+body {
+    background-image: url(./makeup.jpg);
+}
+
+li {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    list-style: none;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   /* background-color:rgba(165, 42, 42, 0.808)*/
+  }
+
+li,a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    font-family: sans-serif;
+    font-weight: 800;
+    float: right;
+    opacity: 0.9;
+}
+
+li,a:hover {
+    color: bisque;
+}
+
+.konten {
+    float: left;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+.konten,span {
+    color:gold;
+}
